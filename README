@@ -11,9 +11,10 @@ Steps for checking a new rev of the file in from one's desktop...
 
 <checkout current rev of WebSecBiblio>
 <edit & save locally WebSecBiblio>
+git add <changed file(s)>
 git commit -m 'some commit message/note'
 git push origin master
-
+<will need to supply ssh rsa private key passphrase>
 
 ---
 end
