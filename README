@@ -1,0 +1,22 @@
+WebSecBiblio.bib is a bibtex file with various websec references ensconced within.
+Thanks to Adam Barth for initial seed file.
+
+I ebSecBiblio.bib is a bibtex file with various websec references ensconced within.
+Thanks to Adam Barth for initial seed file.
+
+I presently use JabRef to maintain the file. 
+http://jabref.sourceforge.net/
+
+Steps for checking a new rev of the file in from one's desktop...
+
+<checkout current rev of WebSecBiblio>
+<edit & save locally WebSecBiblio>
+git commit -m 'some commit message/note'
+git push origin master
+
+
+---
+end
+
+
+
