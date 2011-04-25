@@ -4,13 +4,15 @@ Thanks to Adam Barth for initial seed file.
 I presently use JabRef to maintain the file. 
 http://jabref.sourceforge.net/
 
--- Steps for checking a new rev of the file in from one's desktop...
+-- Steps for getting a local copy...
 
   <checkout current rev of WebSecBiblio>
   git clone https://github.com/equalsJeffH/WebSecBiblio.git   -- if first time
 
   git pull https://github.com/equalsJeffH/WebSecBiblio.git    -- subsequent times
 
+
+-- Steps for checking a new rev of the file in from one's desktop
 -- if you add to the WebSecBiblio..
 
   <edit & save locally WebSecBiblio>
