@@ -4,14 +4,23 @@ Thanks to Adam Barth for initial seed file.
 I presently use JabRef to maintain the file. 
 http://jabref.sourceforge.net/
 
-Steps for checking a new rev of the file in from one's desktop...
+-- Steps for checking a new rev of the file in from one's desktop...
 
-<checkout current rev of WebSecBiblio>
-<edit & save locally WebSecBiblio>
-git add <changed file(s)>
-git commit -m 'some commit message/note'
-git push origin master
-<will need to supply ssh rsa private key passphrase>
+  <checkout current rev of WebSecBiblio>
+  git clone https://github.com/equalsJeffH/WebSecBiblio.git   -- if first time
+
+  git pull https://github.com/equalsJeffH/WebSecBiblio.git    -- subsequent times
+
+-- if you add to the WebSecBiblio..
+
+  <edit & save locally WebSecBiblio>
+
+-- to update the master in git..
+
+  git add <changed file(s)>
+  git commit -m 'some commit message/note'
+  git push origin master
+    <will need to supply ssh rsa private key passphrase>
 
 ---
 end
